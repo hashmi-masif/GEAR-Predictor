@@ -31,11 +31,11 @@ To train the model on your own use the file AgeGenderRaceTraining.py file or to 
 
 ## Input
 
-![](/images/fgs.jpg)
+![](/images/3men.jpg)
 
 ## Output
 
-![](/update_images/3men.jpg)
+![](/update_images/fgs.jpg)
 
 ## Author
 
