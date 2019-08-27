@@ -35,7 +35,7 @@ To train the model on your own use the file AgeGenderRaceTraining.py file or to 
 
 ## Output
 
-![](/update_images/fgs.jpg)
+![](/updated_images/fgs.jpg)
 
 ## Author
 
