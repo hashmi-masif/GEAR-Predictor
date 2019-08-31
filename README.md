@@ -43,5 +43,5 @@ To train the model on your own use the file AgeGenderRaceTraining.py file or to 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Udolf15/recommendMeMovies/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Udolf15/GEAR-Predictor/blob/master/LICENSE) file for details
 
