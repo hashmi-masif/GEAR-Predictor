@@ -40,7 +40,7 @@ To run the software follow the steps
 6. After batch processing the images will be placed in updated images as well as faces extracted can be found in faces directory.
 7. To stop the realtime webcam please press escape key on keyboard.
 
-![](/images/gp.png) 
+![](/images/gp.PNG) 
 
 ## Training the models
 
@@ -70,7 +70,7 @@ To train the model on your own use the file AgeGenderRaceTraining.py file or to 
 
   
 
-![](/images/fgs.jpg)
+![](/images/3men.jpg)
 
   
 
@@ -78,7 +78,7 @@ To train the model on your own use the file AgeGenderRaceTraining.py file or to 
 
   
 
-![](/update_images/3men.jpg)
+![](/update_images/fgs.jpg)
 
   
 
