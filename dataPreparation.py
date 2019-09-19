@@ -34,8 +34,8 @@ def parse_filepath(filepath):
 files = glob.glob(os.path.join(DATA_DIR, "*.jpg"))
 attributes = list(map(parse_filepath, files))
 
-df = pd.DataFrame(attributes)
-df['file'] = files
-df.columns = ['age', 'gender', 'race', 'file']
-df = df.dropna()
-df.head()
+#df = pd.DataFrame(attributes)
+#df['file'] = files
+#df.columns = ['age', 'gender', 'race', 'file']
+##df = df.dropna()
+#df.head()

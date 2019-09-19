@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
+import cv2
 
+# Normalize the images
 def preprocess_input(x, v2=True):
     x = x.astype('float32')
     x = x / 255.0
@@ -9,6 +11,7 @@ def preprocess_input(x, v2=True):
         x = x * 2.0
     return x
 
+# One hot encoding 
 def to_categorical(integer_classes, num_classes=2):
     integer_classes = np.asarray(integer_classes, dtype='int')
     num_samples = integer_classes.shape[0]
@@ -16,6 +19,7 @@ def to_categorical(integer_classes, num_classes=2):
     categorical[np.arange(num_samples), integer_classes] = 1
     return categorical
 
+# Splitting the train, test and validation datasets
 def split_data(x, y, validation_split=.2):
     num_samples = len(x)
     num_train_samples = int((1 - validation_split)*num_samples)
@@ -27,7 +31,7 @@ def split_data(x, y, validation_split=.2):
     val_data = (val_x, val_y)
     return train_data, val_data
 
-
+# Load the fer2013
 def load_fer2013():
     data = pd.read_csv('/content/gdrive/My Drive/fer2013.csv')
     pixels = data['pixels'].tolist()
